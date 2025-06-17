@@ -10,6 +10,7 @@ This application allows event organizers to:
 - Monitor RSVP status
 - Record when guests were added
 - Edit guest information as needed
+- Access from any device with responsive design
 
 ## Features
 
@@ -41,8 +42,9 @@ This application allows event organizers to:
 ### Styling
 - CSS3 for visual presentation
 - Color-coding for different guest categories
-- Responsive design elements
+- Fully responsive design for mobile and desktop
 - Interactive button states
+- Media queries for optimal display on all devices
 
 ## Code Structure
 
