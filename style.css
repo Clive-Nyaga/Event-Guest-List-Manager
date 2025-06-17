@@ -45,6 +45,7 @@ input[type="text"] {
     border-radius: 0;
     font-size: 16px;
     margin-left: 10px;
+    border-right: 10%;
 }
 
 #add-guest {

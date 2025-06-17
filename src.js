@@ -5,18 +5,18 @@ document.addEventListener('DOMContentLoaded', () => {
     const guestList = document.getElementById('guest-list');
     
     // Defines the maximum number of guests allowed
-    const MAX_GUESTS = 10;
+    const maxGuests = 10;
     
     // Handles form submission
     guestForm.addEventListener('submit', (event) => {
-        event.preventDefault(); // Suppress the default form submission
+        event.preventDefault(); // Suppresses the default form submission
         
         const guestName = guestNameInput.value.trim();
         const category = guestCategorySelect.value;
         
         if (guestName) {
-            // Checks if guest list is at capacity
-            if (guestList.children.length >= MAX_GUESTS) {
+            // Checks if guest list has reached its capacity
+            if (guestList.children.length >= maxGuests) {
                 alert('The guest list is full! A maximum of 10 guests is allowed.');
                 return;
             }
