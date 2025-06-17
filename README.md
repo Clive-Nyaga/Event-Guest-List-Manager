@@ -73,3 +73,16 @@ This application allows event organizers to:
 - Guest search functionality
 - Export guest list to CSV/PDF
 - Additional guest details (dietary preferences, etc.)
+
+## Contributions
+
+Feel free to fork this repository and suggest improvements, such as:
+- Adding persistent storage using localStorage
+- Creating guest filtering by category
+- Implementing a search function for guests
+- Adding email invitation functionality
+- Enhancing the UI with animations
+
+---
+
+## © 2025 Clive Nyaga Kagotho. All rights reserved.
